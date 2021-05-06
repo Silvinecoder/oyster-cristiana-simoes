@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+/* This is the I am oyster title*/
+h1 {
+  color: #eeeeee;
+  margin: 50px;
+  font-family: 'Pangolin', cursive;
+  font-size: 5.625rem;
+}
+
+/* This is the the description underneath of I am oyster title*/
+.description {
+  position: relative;
+  bottom: 50px;
+}
+
+/* All of the h2*/
+h2 {
+  color: #00909e;
+  font-family: 'Caveat', cursive;
+  font-size: 130%;
+  font-size: 50px;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+}
+
+/* All of the h3*/
+h3 {
+  color: #00909e;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+/* this is the first ruler, making it dotted,
+different color and smaller with the border,
+changing the width and margin to be centered*/
+.hr1 {
+  border: dotted #00909e  6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* second ruler */
+.hr2 {
+  border: dotted #00909e 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* changing the line height and
+font family for all of the paragraphs */
+p {
+  line-height: 2;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* this is the top container where the title is */
+.top-container {
+  background-color: #142850;
+  padding: 50px 0 0 50px;
+  position: relative;
+}
+
+/* a slidein keyframe that only works for my name is oyster description */
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 300%;
+}
+
+to {
+  margin-left: 0;
+  width: 100%;
+}
+}
+/* coding image */
+.coding {
+  width: 30%;
+  margin: auto;
+}
+
+/* keyboard image */
+.top-keyboard {
+  width: 15%;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+/* mouse image */
+.bottom-mouse {
+  width: 10%;
+  position: absolute;
+  left: 40px;
+  bottom: 225px;
+}
+
+/* middle container */
+.middle-container {
+  margin: 100px auto;
+}
+
+/* oyster image, making it circle with border radius*/
+.oyster-image {
+  width: 20%;
+  border-radius: 500px;
+}
+
+/* description of oyset */
+.description-oyster {
+  margin: auto;
+  padding-bottom: 50px;
+  width: 80%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+/* the skills container that's in charge of background and padding */
+.skills {
+  background-color: #142850;
+  padding: 10px 0 10px;
+  color: #eeeeee;
+}
+
+/* skills row with the text align to the left */
+.skill-row {
+  margin: 40px auto 200px auto;
+  width: 60%;
+  text-align: left;
+}
+
+/* 2nd skills row with the text align to the left */
+.skill-row-2 {
+  margin: 180px auto 200px auto;
+  width: 40%;
+  text-align: left;
+}
+
+/* description of skills row */
+.description {
+  font-family: #40514E;
+}
+
+/* computer image floating on the left */
+.computer {
+  position: relative;
+  bottom: 10px;
+  width: 20%;
+  border-radius: 180px;
+  float: left;
+  margin-right: 30px;
+}
+
+/* dumbbell image floating on the right */
+.dumbbell {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* worldbiofitness link */
+.world {
+  color: #eeeeee;
+  font-family: 'Caveat', cursive;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* bottom container that has the footer links */
+.bottom-container {
+  background-color: #142850;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Caveat', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* a different color when you hover above the links/anchor tags */
+a:hover {
+  color: white;
+}
+
+/* contact message width */
+.contact-message {
+  width: 40%;
+  margin: 10px auto 60px auto;
+}
+
+/* contact me container */
+.contact-me {
+  margin: 10px;
+}
+
+/* button */
+.btn {
+  -moz-box-shadow: 0 -12px 16px -5px #142850;
+  -webkit-box-shadow: 0 -12px 16px -5px #142850;
+  box-shadow: 0 -12px 16px -5px #142850;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background: -moz-linear-gradient(center top, #599bb3 5%, #408c99 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99');
+  background-color: #599bb3;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 0 0 #3d768a;
+}
+
+/* hovering over the button */
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+  background: -moz-linear-gradient(center top, #408c99 5%, #599bb3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3');
+  background-color: #408c99;
+}
+
+/* button when active */
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* copyright paragraph */
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
